@@ -1,4 +1,4 @@
-/* eslint-disable eslint-comments/require-description */
+ 
 /* eslint-disable react/function-component-definition */
 
 'use client';

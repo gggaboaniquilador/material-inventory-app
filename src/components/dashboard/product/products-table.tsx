@@ -1,4 +1,4 @@
-/* eslint-disable eslint-comments/require-description */
+ 
 /* eslint-disable @typescript-eslint/no-empty-function */
 'use client';
 
