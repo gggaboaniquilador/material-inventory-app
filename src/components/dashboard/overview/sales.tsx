@@ -72,6 +72,7 @@ function useChartOptions(): ApexOptions {
     },
     yaxis: {
       labels: {
+        // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
         formatter: (value) => (value > 0 ? `${value}K` : `${value}`),
         offsetX: -10,
         style: { colors: theme.palette.text.secondary },

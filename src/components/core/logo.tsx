@@ -49,6 +49,7 @@ export function DynamicLogo({
   const color = colorScheme === 'dark' ? colorDark : colorLight;
 
   return (
+    // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
     <NoSsr fallback={<Box sx={{ height: `${height}px`, width: `${width}px` }} />}>
       <Logo color={color} height={height} width={width} {...props} />
     </NoSsr>
