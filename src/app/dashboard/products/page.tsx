@@ -1,6 +1,5 @@
 "use client";
 import * as React from 'react';
-import type { Metadata } from 'next';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
@@ -9,7 +8,6 @@ import { Plus as PlusIcon } from '@phosphor-icons/react/dist/ssr/Plus';
 import { Upload as UploadIcon } from '@phosphor-icons/react/dist/ssr/Upload';
 import dayjs from 'dayjs';
 
-import { config } from '@/config';
 import { CustomersFilters } from '@/components/dashboard/product/products-filters';
 import { CustomersTable } from '@/components/dashboard/product/products-table';
 import type { ProductData } from '@/components/dashboard/product/products-table';

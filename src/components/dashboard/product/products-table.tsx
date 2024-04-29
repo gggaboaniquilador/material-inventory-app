@@ -1,7 +1,8 @@
+/* eslint-disable eslint-comments/require-description */
+/* eslint-disable @typescript-eslint/no-empty-function */
 'use client';
 
 import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
