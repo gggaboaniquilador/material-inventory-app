@@ -67,9 +67,11 @@ export default function Page(): React.JSX.Element {
             <Button color="inherit" startIcon={<UploadIcon fontSize="var(--icon-fontSize-md)" />}>
               Import
             </Button>
-            <Button color="inherit" startIcon={<DownloadIcon fontSize="var(--icon-fontSize-md)" />}>
-              Export
-            </Button>
+            <a href={productsState.length === 3 ? "/assets/1.pdf" : "/assets/2.pdf"} target="_blank" style={{ textDecoration: 'none' }} rel="noopener">
+              <Button color="inherit" startIcon={<DownloadIcon fontSize="var(--icon-fontSize-md)" />}>
+                Export
+              </Button>
+            </a>
           </Stack>
         </Stack>
         <div>
